@@ -1,19 +1,27 @@
 import type { Config } from "tailwindcss";
+import daisyui from "daisyui";
 
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    
+
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      pgBgColr : '#B9B4C7',
+      navBgColr: "#5C5470",
+      headingTxtColr: '#352F44',
+      txtColr: '#FAF0E6',
+      buttonTxtColr: "#5C5470",
+    }
   },
-  plugins: [],
+  plugins: [
+    daisyui,
+  ],
 };
 export default config;
