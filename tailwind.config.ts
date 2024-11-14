@@ -18,6 +18,7 @@ const config: Config = {
       headingTxtColr: '#352F44',
       txtColr: '#FAF0E6',
       buttonTxtColr: "#5C5470",
+      cardColr:"#f5f5f5",
     }
   },
   plugins: [
