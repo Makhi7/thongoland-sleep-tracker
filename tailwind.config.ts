@@ -19,6 +19,7 @@ const config: Config = {
       txtColr: '#FAF0E6',
       buttonTxtColr: "#5C5470",
       cardColr:"#f5f5f5",
+      cardTxtColr: "#352F44",
     }
   },
   plugins: [

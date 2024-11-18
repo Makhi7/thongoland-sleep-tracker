@@ -1,5 +1,6 @@
 import BenefitsSection from "./ui/splash/benefits-section";
 import HeroSection from "./ui/splash/hero-section";
+import SubscribeToMailSection from "./ui/splash/subscribe-to-mail-section";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <BenefitsSection />
 
       {/* subscribe to mail section */}
+      <SubscribeToMailSection />
 
       {/* footer section */}
     </div>
