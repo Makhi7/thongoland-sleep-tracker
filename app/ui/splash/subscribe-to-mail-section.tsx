@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function SubscribeToMailSection(){
     return (
@@ -23,21 +22,20 @@ export default function SubscribeToMailSection(){
 
             <div className="col-start-8 col-span-6">
                 <div className="flex flex-row">
-                    <input type="text" placeholder="Type Name" className="input input-bordered input-lg w-full max-w-xs" />
-                    <input type="text" placeholder="Type Lastname" className="input input-bordered input-lg  w-full max-w-xs" />  
+                    <input type="text" placeholder="Type Name" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />
+                    <input type="text" placeholder="Type Lastname" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />  
                 </div>
 
                 <div className="mt-[32px]">
-                    <input type="email" placeholder="Type Email" className="input input-bordered input-lg w-full" />
+                    <input type="email" placeholder="Type Email" className="input input-bordered input-lg w-full text-buttonTxtColr" />
                 </div>
 
-                <div className="mt-[37px] w-1/2">
+                <div className="mt-[39px] w-full">
                     <button className="btn btn-block text-buttonTxtCol">
-                        Submit
-                    </button>   
+                        Subscribe to Mail
+                    </button>
                 </div>
             </div>
-
         </div>
     )
 }
