@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Footer(){
     return(
-        <footer className="footer py-[72px]">
+        <footer className="footer py-10">
             <nav>
-                <h4 className="footer-title text-headingTxtColr">Services</h4>
+                <h3 className="footer-title text-headingTxtColr">Services</h3>
                 <Link href="#"
                 className="link link-hover text-txtColr">Branding</Link>
                 <Link href="#"
@@ -16,7 +16,7 @@ export default function Footer(){
                 
             </nav>
             <nav>
-                <h4 className="footer-title text-headingTxtColr">Company</h4>
+                <h3 className="footer-title text-headingTxtColr">Company</h3>
                 <Link href="#"
                 className="link link-hover text-txtColr">About us</Link>
                 <Link href="#"
@@ -28,7 +28,7 @@ export default function Footer(){
                 
             </nav>
             <nav>
-                <h4 className="footer-title text-headingTxtColr">Legal</h4>
+                <h3 className="footer-title text-headingTxtColr">Legal</h3>
                 <Link href="#"
                 className="link link-hover text-txtColr">Terms of use</Link>
                 <Link href="#"

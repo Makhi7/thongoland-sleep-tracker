@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function NavBar(){
     return(
-        <div className="navbar">
+        <div className="navbar px-0 space-x-2">
             <div className="navbar-center">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 ">
                     <li>
                         <Link 
                             href="/"

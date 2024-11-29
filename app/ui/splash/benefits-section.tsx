@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function BenefitsSection(){
     return(
-        <div className="grid grid-cols-12 gap-[15px] py-[72px]">
+        <div className="grid grid-cols-12 gap-4 py-10">
             <div className="col-span-10 col-start-2">
                 <h1 className="text-headingTxtColr text-4xl font-semibold text-center">
                     Here Are The Benefits Of Tracking Your Sleep With Thongo Land

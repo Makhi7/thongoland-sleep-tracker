@@ -1,7 +1,7 @@
 
 export default function SubscribeToMailSection(){
     return (
-        <div className="grid grid-cols-12 gap-[15px] py-[72px]">
+        <div className="grid grid-cols-12 gap-4 py-10">
             <div className="col-span-6 flex flex-col">
                 <h1 className="text-headingTxtColr text-4xl font-semibold">
                     Get Updates of Latests Published Blogs 
@@ -20,7 +20,8 @@ export default function SubscribeToMailSection(){
                 </p>
             </div>
 
-            <div className="col-start-8 col-span-6">
+            {/* refactor this form using form element */}
+            {/* <div className="col-start-8 col-span-6">
                 <div className="flex flex-row">
                     <input type="text" placeholder="Type Name" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />
                     <input type="text" placeholder="Type Lastname" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />  
@@ -35,7 +36,8 @@ export default function SubscribeToMailSection(){
                         Subscribe to Mail
                     </button>
                 </div>
-            </div>
+            </div> */}
+            
         </div>
     )
 }
