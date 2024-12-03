@@ -8,7 +8,7 @@ export default function HeroSection() {
 
     return(
         <div className="grid grid-cols-12 gap-4 py-10">
-            <header className="col-span-12 flex items-center justify-between py-4 border-b border-gray-200">
+            <header className="col-span-12 flex items-center justify-between py-4 border-b">
                 <div className="flex items-center gap-4">
                     <Link
                         href="/"
@@ -62,6 +62,8 @@ export default function HeroSection() {
                     varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
                     Ut vitae pharetra libero, quis tincidunt felis. Sed sit amet ipsum mauris. 
                     Nunc cursus sem egestas dapibus tempus. Fusce est lacus, tempus eu dolor et, 
+                    vestibulum. quis tincidunt felis.Sed sit amet ipsum mauris. 
+                    Nunc cursus sem egestas dapibus tempus. Fusce est lacus, tempus eu dolor et, 
                     vestibulum. quis tincidunt felis.
                 </p>
             </div>
@@ -76,7 +78,7 @@ export default function HeroSection() {
                 />
             </div>
             
-            <div className="col-start-1 col-span-3 mt-8">
+            <div className="col-start-1 col-span-3 mt-6">
                 <Link
                     href="#"
                     className="btn btn-block text-buttonTxtColr"

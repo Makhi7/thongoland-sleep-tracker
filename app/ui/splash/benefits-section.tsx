@@ -9,7 +9,7 @@ export default function BenefitsSection(){
                 </h1>
             </div>
 
-            <div className="col-span-8 col-start-3 my-[53px]">
+            <div className="col-span-8 col-start-3 my-8">
                 <p className="text-txtColr text-base">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida hendrerit 
                     sem, sed gravida mi ultricies a. Integer non purus ac purus volutpat volutpat. Orci 
