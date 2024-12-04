@@ -9,7 +9,7 @@ export default function HeroSection() {
     return(
         <div className="grid grid-cols-12 gap-4 py-10">
             <header className="col-span-12 flex items-center justify-between py-4 border-b">
-                <div className="flex items-center gap-4">
+                <div className="col-start-1 col-end-4 flex items-center gap-4">
                     <Link
                         href="/"
                     >
@@ -21,32 +21,12 @@ export default function HeroSection() {
                         <WebTitle />
                     </Link>
                 </div>
-                <div className="justify-self-end">
+                <div className="col-start-7">
                     <NavBar />
                 </div>
-                
-            </header>
-            {/* add the Logo component and WebTitle into the navbar */}
-            {/* <div className="col-span-1">
-                <Link
-                    href="/"
-                >
-                    <Logo />
-                </Link>
-            </div>
             
-            <div className="col-start-2 col-span-3 mt-[10px]">
-                <Link
-                    href="/"
-                >
-                    <WebTitle />
-                </Link>
-            </div> */}
-        
-            {/* <div className="col-start-7 col-span-6 mt-[10px]">
-                <NavBar />
-            </div> */}
-
+            </header>
+            
             <div className="col-start-1 col-span-5 mt-12 flex flex-col">
                 <h1 
                     className="text-headingTxtColr text-4xl font-semibold"
