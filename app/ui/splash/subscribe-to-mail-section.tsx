@@ -1,6 +1,6 @@
 "use client";
 export default function SubscribeToMailSection(){
-
+    // need to refactor by defining form data types
     function subscribe(formData){
         const name = formData.get("name");
         const lastName = formData.get("lastname");
@@ -9,7 +9,6 @@ export default function SubscribeToMailSection(){
         alert(`You searched for '${name}'`);
         alert(`You searched for '${lastName}'`);
         alert(`You searched for '${email}'`);
-
     }
 
     return (

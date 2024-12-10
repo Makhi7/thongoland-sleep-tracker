@@ -7,15 +7,7 @@ export default function NavBar(){
                 <ul className="menu menu-horizontal px-1 ">
                     <li>
                         <Link 
-                            href="/"
-                            className="text-txtColr text-base"
-                        >
-                            Home
-                        </Link> 
-                    </li>
-                    <li>
-                        <Link 
-                            href="#"
+                            href="/how-thongoland-works"
                             className="text-txtColr text-base"
                         >
                             How Thongo land Works
@@ -23,7 +15,7 @@ export default function NavBar(){
                     </li>
                     <li>
                         <Link 
-                            href="#"
+                            href="about-us"
                             className="text-txtColr text-base"
                         >
                             About us
@@ -31,7 +23,7 @@ export default function NavBar(){
                     </li>
                     <li>
                         <Link
-                            href="#"
+                            href="/blog"
                             className="text-txtColr text-base"
                         >
                             Blog
@@ -41,7 +33,7 @@ export default function NavBar(){
             </div>
             <div className="navbar-end">
                 <Link
-                    href="#"
+                    href="sign-up"
                     className="btn btn-block text-buttonTxtColr"
                 >
                     Get Started

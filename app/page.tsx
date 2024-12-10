@@ -6,7 +6,7 @@ import SubscribeToMailSection from "./ui/splash/subscribe-to-mail-section";
 
 export default function Home() {
   return (
-    <div className="h-full px-[90px] bg-pgBgColr">
+    <div className="wrapper">
       {/* hero section */}
       <HeroSection />
       

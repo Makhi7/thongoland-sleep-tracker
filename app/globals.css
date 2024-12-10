@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 
+.wrapper{
+    height: screen;
+    padding-left: 90px;
+    padding-right: 90px;
+    --tw-bg-opacity: 1;
+    background-color: #b9b4c7;
+}
+
 
 
 

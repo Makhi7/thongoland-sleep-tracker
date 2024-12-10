@@ -1,32 +1,13 @@
 import Link from "next/link";
-import Logo from "../logo";
-import NavBar from "../navbar";
-import WebTitle from "../title";
 import Image from "next/image";
+import Header from "../header";
 
 export default function HeroSection() {
-
     return(
         <div className="grid grid-cols-12 gap-4 py-10">
-            <header className="col-span-12 flex items-center justify-between py-4 border-b">
-                <div className="col-start-1 col-end-4 flex items-center gap-4">
-                    <Link
-                        href="/"
-                    >
-                        <Logo />
-                    </Link>
-                    <Link
-                        href="/"
-                    >
-                        <WebTitle />
-                    </Link>
-                </div>
-                <div className="col-start-7">
-                    <NavBar />
-                </div>
             
-            </header>
-            
+            <Header />
+
             <div className="col-start-1 col-span-5 mt-12 flex flex-col">
                 <h1 
                     className="text-headingTxtColr text-4xl font-semibold"
@@ -60,7 +41,7 @@ export default function HeroSection() {
             
             <div className="col-start-1 col-span-3 mt-6">
                 <Link
-                    href="#"
+                    href="/sign-up"
                     className="btn btn-block text-buttonTxtColr"
                 >
                     Get Started
