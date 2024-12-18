@@ -4,9 +4,9 @@ import Logo from './logo'
 import WebTitle from './title'
 import NavBar from './navbar'
 
-export default function header() {
+export default function NavHeader() {
   return (
-            <header className="col-span-12 flex items-center justify-between py-4 border-b">
+            <header className="col-span-12 flex items-center justify-between py-5 border-b">
                 <div className="col-start-1 col-end-4 flex items-center gap-4">
                     <Link
                         href="/"

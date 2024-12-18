@@ -1,18 +1,9 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
-import "./globals.css";
+import "../globals.css";
 import { inter } from "@/app/fonts/fonts";
+import NavHeader from "../ui/header";
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
+
 
 export const metadata: Metadata = {
   title: "Thongo Land Sleep Tracker",
@@ -29,7 +20,10 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased`}
       >
-        {children}
+        <div className="wrapper">
+          <NavHeader />
+          {children}
+        </div> 
       </body>
     </html>
   );

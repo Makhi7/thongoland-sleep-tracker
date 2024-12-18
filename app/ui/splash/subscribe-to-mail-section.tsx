@@ -12,7 +12,7 @@ export default function SubscribeToMailSection(){
     }
 
     return (
-        <div className="grid grid-cols-12 gap-4 py-10">
+        <div className="grid grid-cols-12 gap-4 py-5">
             <div className="col-span-6 flex flex-col">
                 <h1 className="text-headingTxtColr text-4xl font-semibold">
                     Get Updates of Latests Published Blogs 
