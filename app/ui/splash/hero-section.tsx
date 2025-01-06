@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return(
-        <div className="grid grid-cols-12 gap-4 py-5">
+        <div className="grid grid-cols-12 gap-4 py-7">
             <div className="col-start-1 col-span-5 mt-12 flex flex-col">
                 <h1 
                     className="text-headingTxtColr text-4xl font-semibold"

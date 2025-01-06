@@ -17,7 +17,6 @@ export default function AuthLayout({
       <html lang="en">
           <body className={`${inter.className} antialiased`}>
             <div className="wrapper">
-              <h1>Authentication</h1>
               {children}
             </div>
           </body>

@@ -1,9 +1,10 @@
+import SignUpForm from '@/app/ui/use-signup/signup'
 import React from 'react'
 
-export default function SignUp() {
+export default function SignUpPage() {
   return (
     <div>
-        SignUp
+        <SignUpForm />
     </div>
   )
 }

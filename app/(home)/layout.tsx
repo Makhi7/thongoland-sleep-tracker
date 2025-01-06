@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 import { inter } from "@/app/fonts/fonts";
 import NavHeader from "../ui/header";
+import Footer from "../ui/footer";
 
 
 
@@ -22,7 +23,8 @@ export default function RootLayout({
       >
         <div className="wrapper">
           <NavHeader />
-          {children}
+            {children}
+          <Footer />
         </div> 
       </body>
     </html>

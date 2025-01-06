@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer(){
     return(
-        <footer className="footer py-5 border-t">
+        <footer className="footer py-7 border-t">
             <nav>
                 <h3 className="footer-title text-headingTxtColr">Services</h3>
                 <Link href="#"

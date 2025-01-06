@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 
 export default function NavBar(){
@@ -15,7 +16,7 @@ export default function NavBar(){
                     </li>
                     <li>
                         <Link 
-                            href="about-us"
+                            href="/about-us"
                             className="text-txtColr text-base"
                         >
                             About us
@@ -33,7 +34,7 @@ export default function NavBar(){
             </div>
             <div className="navbar-end">
                 <Link
-                    href="sign-up"
+                    href="/sign-up"
                     className="btn btn-block text-buttonTxtColr"
                 >
                     Get Started

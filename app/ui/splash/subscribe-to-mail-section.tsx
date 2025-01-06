@@ -12,7 +12,7 @@ export default function SubscribeToMailSection(){
     }
 
     return (
-        <div className="grid grid-cols-12 gap-4 py-5">
+        <div className="grid grid-cols-12 gap-4 py-7">
             <div className="col-span-6 flex flex-col">
                 <h1 className="text-headingTxtColr text-4xl font-semibold">
                     Get Updates of Latests Published Blogs 
@@ -36,16 +36,19 @@ export default function SubscribeToMailSection(){
                 className="col-start-8 col-span-6"
              >
                 <div className="flex flex-row">
-                    <input type="text" name="name" placeholder="Type Name" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />
-                    <input type="text" name="lastname" placeholder="Type Lastname" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />  
+                    <input type="text" name="user_name" placeholder="Type Name" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />
+                    <input type="text" name="user_lastname" placeholder="Type Lastname" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />  
                 </div>
 
                 <div className="mt-[32px]">
-                    <input type="email" name="email" placeholder="Type Email" className="input input-bordered input-lg w-full text-buttonTxtColr" />
+                    <input type="email" name="user_email" placeholder="Type Email" className="input input-bordered input-lg w-full text-buttonTxtColr" />
                 </div>
 
                 <div className="mt-[39px] w-full">
-                    <button className="btn btn-block text-buttonTxtCol">
+                    <button 
+                        className="btn btn-block text-buttonTxtCol"
+                        type="submit"
+                    >
                         Subscribe to Mail
                     </button>
                 </div>
