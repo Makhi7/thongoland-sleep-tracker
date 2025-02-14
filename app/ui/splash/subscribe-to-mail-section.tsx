@@ -1,15 +1,6 @@
 
 export default function SubscribeToMailSection(){
-    // need to refactor by defining form data types
-    // function subscribe(formData){
-    //     const name = formData.get("name");
-    //     const lastName = formData.get("lastname");
-    //     const email = formData.get("email");
-
-    //     alert(`You searched for '${name}'`);
-    //     alert(`You searched for '${lastName}'`);
-    //     alert(`You searched for '${email}'`);
-    // }
+    
 
     return (
         <div className="grid grid-cols-12 gap-4 py-7">
@@ -30,30 +21,6 @@ export default function SubscribeToMailSection(){
                     viene de una linea en la sección 1.10.32
                 </p>
             </div>
-
-            {/* <form
-                action={subscribe} 
-                className="col-start-8 col-span-6"
-             >
-                <div className="flex flex-row">
-                    <input type="text" name="user_name" placeholder="Type Name" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />
-                    <input type="text" name="user_lastname" placeholder="Type Lastname" className="input input-bordered input-lg w-full max-w-xs text-buttonTxtColr" />  
-                </div>
-
-                <div className="mt-[32px]">
-                    <input type="email" name="user_email" placeholder="Type Email" className="input input-bordered input-lg w-full text-buttonTxtColr" />
-                </div>
-
-                <div className="mt-[39px] w-full">
-                    <button 
-                        className="btn btn-block text-buttonTxtCol"
-                        type="submit"
-                    >
-                        Subscribe to Mail
-                    </button>
-                </div>
-            </form> */}
-            
         </div>
     )
 }
