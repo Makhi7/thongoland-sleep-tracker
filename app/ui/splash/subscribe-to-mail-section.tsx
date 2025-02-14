@@ -1,15 +1,15 @@
-"use client";
+
 export default function SubscribeToMailSection(){
     // need to refactor by defining form data types
-    function subscribe(formData){
-        const name = formData.get("name");
-        const lastName = formData.get("lastname");
-        const email = formData.get("email");
+    // function subscribe(formData){
+    //     const name = formData.get("name");
+    //     const lastName = formData.get("lastname");
+    //     const email = formData.get("email");
 
-        alert(`You searched for '${name}'`);
-        alert(`You searched for '${lastName}'`);
-        alert(`You searched for '${email}'`);
-    }
+    //     alert(`You searched for '${name}'`);
+    //     alert(`You searched for '${lastName}'`);
+    //     alert(`You searched for '${email}'`);
+    // }
 
     return (
         <div className="grid grid-cols-12 gap-4 py-7">
@@ -31,7 +31,7 @@ export default function SubscribeToMailSection(){
                 </p>
             </div>
 
-            <form
+            {/* <form
                 action={subscribe} 
                 className="col-start-8 col-span-6"
              >
@@ -52,7 +52,7 @@ export default function SubscribeToMailSection(){
                         Subscribe to Mail
                     </button>
                 </div>
-            </form>
+            </form> */}
             
         </div>
     )
