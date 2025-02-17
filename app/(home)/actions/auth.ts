@@ -1,4 +1,4 @@
-import { SignupFormSchema, FormState } from "../lib/definitions"
+import { SignupFormSchema, FormState } from "../../../lib/zod"
  
 export async function signup(state: FormState, formData: FormData) {
   // Validate form fields
